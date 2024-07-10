@@ -108,7 +108,7 @@ main section{
 }
 .second-section-container{
     max-width: 1140px;
-    height: 1395px;
+    height: 1300px;
     margin: 0 auto;
     border: 2px solid red;
 
@@ -145,7 +145,7 @@ main section{
     text-align: center;
     margin-bottom: 80px;
     margin: 0 auto;
-  
+}
 
 .inspire-content h2{ 
     width: 852px;
@@ -172,8 +172,12 @@ main section{
 
 /* my current target */
 .target-container{
+    
     display: flex;
     gap: 24px;
+    width: 1140px;
+    height: 330px;
+    margin-bottom: 40px;
 }
 .target{
     padding: 30px;
