@@ -110,6 +110,7 @@ main section{
     max-width: 1140px;
     height: 1395px;
     margin: 0 auto;
+    border: 2px solid red;
 
 }
 
@@ -144,7 +145,7 @@ main section{
     text-align: center;
     margin-bottom: 80px;
     margin: 0 auto;
-}
+  
 
 .inspire-content h2{ 
     width: 852px;
