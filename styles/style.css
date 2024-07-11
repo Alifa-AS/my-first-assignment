@@ -66,7 +66,7 @@ body{
     min-height: 652px;
     margin: 0 auto;
     margin-top: 50px;
-    background-image: url('/assets/Hero-bg.png');
+    background-image: url('../assets/Hero-bg.png');
     background-size: cover;
     background-repeat: no-repeat;
     display: flex;
@@ -99,13 +99,17 @@ body{
 main{
     max-width: 1140px;
     margin: 0 auto;
+    justify-content: center;
+    align-items: center;
+    
 
 }
 
-/* second section start */
 main section{
     margin-top: 100px;
 }
+/* second section start */
+
 .second-section-container{
     max-width: 1140px;
     height: 1300px;
@@ -122,17 +126,33 @@ main section{
     display: flex;
     flex-direction: column;
     justify-content: center;
+} 
+
+.content-container{
+    width: 100%;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
-.middle-content{
-    margin-top: 80px;
-    width: 60%;
-  
+.content-container .picture{
+    width: 30%;
+    height: 319px;
+    margin-left: 70px;
+    margin-left: 70px;
 }
 
-.left-content{
-   display: block;
 
-}
+/* .content-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 150px auto;
+    width: 946px;
+    height: 336px;  
+} */
+
+/* second section end */
 
 /* inspire start */
 .inspire-container{
@@ -186,15 +206,21 @@ main section{
 }
 .target-1{
     border-radius: 16px;
-    background-color: rgba(255, 76, 30, 0.05);;
+    background-color: rgba(255, 76, 30, 0.05);
+    padding: 20px;
+    margin: 32px 0px;
 }
 .target-2{
     border-radius: 16px;
     background-color: rgba(0, 76, 232, 0.05);
+    padding: 20px;
+    margin: 32px 0px;
 }
 .target-3{
     border-radius: 16px;
     background-color: rgba(255, 223, 0, 0.05);
+    padding: 20px;
+    margin: 32px 0px;
 }
 
 .target{
@@ -207,7 +233,8 @@ main section{
 
 /* footer */
 .foot-container{
-    background-image: url(/assets/handshake.jpg);
+    background-image: url('../assets/handshake.jpg');
+    border-radius: 10px;
     background-size: cover;
     background-repeat: no-repeat;
     display: flex;
@@ -221,15 +248,16 @@ main section{
 }
 .icon-section{
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
+    text-align: center;
+}
+.last{
+    float: left;
 }
 .space{
     font-weight: bold;
     font-size: 16px;
     padding: 10px 60px;
-
     margin: 20px;
     border-radius: 10px;
-  
-
 }
